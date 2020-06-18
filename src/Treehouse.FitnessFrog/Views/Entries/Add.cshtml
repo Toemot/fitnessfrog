@@ -15,7 +15,7 @@
 
             <div class="form-group">
                 @Html.LabelFor(m => m.Date, new { @class = "control-label" }) @*using lambda m=>m.any introduces For*@
-                @Html.TextBoxFor(m => m.Date, "{0:D}", new { @class = "form-control" }) @*{0:D= returns the date in ToString format}*@
+                @Html.TextBoxFor(m => m.Date, "{0:D}", new { @class = "form-control datepicker  " }) @*{0:D= returns the date in ToString format}*@
             </div>
 
             <div class="form-group">
